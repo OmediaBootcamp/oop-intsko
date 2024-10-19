@@ -1,3 +1,5 @@
+package dev.omedia.composition;
+
 public class Ceiling {
 
     private int height;

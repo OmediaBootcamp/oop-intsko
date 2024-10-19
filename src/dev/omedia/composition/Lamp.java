@@ -1,17 +1,19 @@
+package dev.omedia.composition;
+
 public class Lamp {
 
     private String style;
     private boolean battery;
     private int globRating;
 
-    public static void Lamp(String style, boolean battery, int globRating) {
+    public Lamp(String style, boolean battery, int globRating) {
         this.style = style;
         this.battery = battery;
         this.globRating = globRating;
     }
 
     public void turnOn() {
-        System.out.println("The lamp is being turned on.")
+        System.out.print("Lamp -> Turning on");
     }
 
     public String getStyle() {

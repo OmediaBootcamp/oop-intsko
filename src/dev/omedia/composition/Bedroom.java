@@ -1,4 +1,6 @@
-public class Bedroom extends Bed {
+package dev.omedia.composition;
+
+public class Bedroom {
 
     private String name;
     private Wall wall1;
@@ -27,11 +29,13 @@ public class Bedroom extends Bed {
         this.lamp = lamp;
     }
 
-    public Lamp getLamp() {
-        return lamp;
+    public void makeBed() {
+        System.out.print("Bedroom -> Making bed | ");
+        bed.make();
     }
 
-    public void makeBed() {
-        return makeBed();
+
+    public Lamp getLamp() {
+        return lamp;
     }
 }

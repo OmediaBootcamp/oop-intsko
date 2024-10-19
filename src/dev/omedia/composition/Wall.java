@@ -1,3 +1,5 @@
+package dev.omedia.composition;
+
 public class Wall {
 
     private String direction;

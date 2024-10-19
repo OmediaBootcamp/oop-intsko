@@ -1,3 +1,5 @@
+package dev.omedia.composition;
+
 public class Bed {
 
     private String style;
@@ -15,7 +17,7 @@ public class Bed {
     }
 
     public void make() {
-        System.out.println("The bed is being made");
+        System.out.print("Bed -> Making | ");
     }
 
     public String getStyle() {
